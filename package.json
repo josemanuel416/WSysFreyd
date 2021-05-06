@@ -1,0 +1,19 @@
+{
+  "name": "wsysfreyd",
+  "version": "1.0.0",
+  "description": "Mi proyecto web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josemanuel416/WSysFreyd.git"
+  },
+  "author": "jose manuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josemanuel416/WSysFreyd/issues"
+  },
+  "homepage": "https://github.com/josemanuel416/WSysFreyd#readme"
+}
