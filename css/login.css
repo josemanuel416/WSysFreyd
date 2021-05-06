@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    /* background-color: #8F57DF; */
+    font-family: 'Mulish', sans-serif;
+}
+.header{
+    background-color:  	rgb(127, 255, 0,0.3);
+    width: 100%;
+    height: 80PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #04599c;
+
+}
+.header__img{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.login {
+    /* background: linear-gradient(#04599c,#85b51d); */
+    background: rgb(130, 181,29,0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+.login__contenedor{
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid white;
+    border-radius: 35px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.login__contenedor__form{
+    display: flex;
+    flex-direction: column;
+}
+.login__contenedor__form label{ 
+    font-size: 14px;
+}
+.login__contenedor--recordar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.login__contenedor--recordar a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.login__contenedor--recordar a:hover{
+    text-decoration: underline;
+}
+.login__contenedor--social > div{
+display: flex;
+align-items: center;
+font-size: 14;
+margin-bottom: 10px;
+}
+.login__contenedor--social > div > img{
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+.login__contenedor--registro{
+    font-size: 14px;
+
+}
+.login__contenedor--registro a {
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+    text-decoration: none; 
+}
+.login__contenedor--registro a:hover {
+    text-decoration: underline; 
+}
+.login__contenedor--iniciar{
+    font-size: 14px;
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+    text-decoration: none; 
+   
+}
+.login__contenedor--iniciar:hover {
+    text-decoration: underline; 
+}
+.inputf{
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0px 20px ;
+    outline: none;
+    height: 50px;
+    color: white;
+}
+::placeholder{
+    color: white;
+
+}
+.button{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 35px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 45px;
+    letter-spacing: 2px;
+    margin: 10px 0px;
+}
+.footer{
+    background-color: #388cc0 ;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.footer a {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px ;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 600px){
+    .login__contenedor{
+        background-color: transparent;
+        border:none;
+        padding: 0px;
+        width: 100%;
+    }
+    .footer{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
